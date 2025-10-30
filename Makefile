@@ -1,4 +1,4 @@
-report.html: report.Rmd code/02_render_report.R random_numbers
+git report.html: report.Rmd code/02_render_report.R random_numbers
 	Rscript code/02_render_report.R
 
 random_numbers:
